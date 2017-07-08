@@ -27,7 +27,7 @@ type tModel struct {
 
 var (
 	gModels []tModel
-	gRegExp = regexp.MustCompile(`\.id_(\d+?)_(.+?)\.onion\._`) // remove ransomware file extension
+	gRegExp = regexp.MustCompile(`\.id_(1513408957)_[mk.jason2@aol.com].q5ur9`) // remove ransomware file extension
 )
 
 func main() {
